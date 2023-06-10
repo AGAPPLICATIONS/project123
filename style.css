@@ -19,6 +19,7 @@ body{
     animation-name:lol;
     animation-duration: 20s;
     animation-iteration-count: infinite;
+    align-content: space-between;
 }
 .footer{
     background-color: yellow;
@@ -42,6 +43,21 @@ canvas{
     box-shadow: 0px 0px 30px orange;
     padding: 10px;
     margin: 10px;
+    animation-name: xd;
+    animation-duration:10s;
+    animation-iteration-count:infinite;
+}
+video{
+    border: 5px ridge yellow;
+    box-shadow: 0px 0px 30px orange;
+    margin-right: 10px;
+    padding: 0px;
+    width: fit-content;
+    height: fit-content;
+    animation-name: xd;
+    animation-duration:10s;
+    animation-iteration-count:infinite;
+   
 }
 @keyframes lol{
     0%{
@@ -57,4 +73,26 @@ canvas{
         background-size: cover !important;
     }
     
+}
+@keyframes xd{
+   0%{
+    border: 5px ridge yellow;
+    box-shadow: 0px 0px 30px orange;
+   }
+   25%{
+    border: 5px ridge rgb(255, 0, 0);
+    box-shadow: 0px 0px 30px rgb(0, 221, 255);
+   }
+   50%{
+    border: 5px ridge rgb(30, 0, 255);
+    box-shadow: 0px 0px 30px rgb(38, 255, 0);
+   }
+   75%{
+    border: 5px ridge rgb(0, 255, 242);
+    box-shadow: 0px 0px 30px rgb(255, 0, 225);
+   }
+   100%{
+    border: 5px ridge rgb(34, 255, 0);
+    box-shadow: 0px 0px 30px rgb(242, 255, 0);
+   }
 }
