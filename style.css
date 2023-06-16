@@ -41,7 +41,7 @@ h1{
 canvas{
     border: 5px ridge yellow;
     box-shadow: 0px 0px 30px orange;
-    padding: 10px;
+    padding: 0px;
     margin: 10px;
     animation-name: xd;
     animation-duration:10s;
